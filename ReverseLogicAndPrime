@@ -1,0 +1,29 @@
+1. 1.Write a logic to reverse string of yourname
+Bhavesh
+hsevahB
+Ans:-
+function reverseString(str) {
+    var newString = "";
+    for (var i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+    console.log(newString)
+    return newString;
+}
+reverseString('Bhavesh');
+
+2.Write a logic to print all prime number from 2 to 50
+
+Ans:- 
+for (var counter =2; counter <= 50; counter++) {
+
+    var notPrime = false;
+    for (var i = 2; i <= counter; i++) {
+        if (counter%i===0 && i!==counter) {
+            notPrime = true;
+        }
+    }
+    if (notPrime === false) {
+                console.log(counter);
+    }
+}
