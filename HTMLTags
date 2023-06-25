@@ -1,0 +1,135 @@
+heading :- HTML headings are defined with the <h1> to <h6> tags.
+Eg. <h1>Hi This is H1</h1>
+    <h2>Hi This is H2</h2>
+    <h3>Hi This is H3</h3>
+    <h4>Hi This is H4</h4>
+    <h5>Hi This is H5</h5>
+    <h6>Hi This is H5</h6>
+
+paragraph :- The HTML <p> element defines a paragraph.
+Eg:- <p>This is a paragraph.</p>
+
+order list And List :- An ordered list starts with the <ol> tag. Each list item starts with the <li> tag.
+Eg. <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+
+button :The <button> tag defines a clickable button.
+Eg:- <button type="button">Click Me!</button>
+
+anchor :- The <a> tag defines a hyperlink, which is used to link from one page to another.
+E.g := <a href="https://google.com">Google</a>
+
+table :- The <table> tag defines an HTML table.
+E.g:- <table>
+  <tr>
+    <th>Name</th>
+    <th>Number</th>
+  </tr>
+  <tr>
+    <td>Test</td>
+    <td>100</td>
+  </tr>
+</table>
+
+link :- The <link> tag defines the relationship between the current document and an external resource.
+Eg:- <link rel="stylesheet" href="styles.css">
+
+script:- The <script> tag is used to embed a client-side script (JavaScript).
+E.g:- <script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script>
+strong :- The <strong> tag is used to define text with strong importance. The content inside is typically displayed in bold.
+E.g:- <strong>This text is important!</strong>
+
+img:- The <img> tag is used to embed an image in an HTML page.
+header :- The <header> element represents a container for introductory content or a set of navigational links.
+E.g:-   <header>
+    <h1>Hi</h1>
+    <p>Bye</p>
+    
+  </header>
+main :- The <main> tag specifies the main content of a document.
+The content inside the <main> element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
+Eg:- <main>
+  <h1>Most Popular Browsers</h1>
+</main>
+
+nav :- The <nav> tag defines a set of navigation links.
+E.g:- <nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/python/">Python</a>
+</nav>
+
+footer :- The <footer> tag defines a footer for a document or section.
+e,g:- <footer>
+  <p>Author: Letsupgrade</p>
+  <p><a href="letsupgrade.in">Letsupgrade</a></p>
+</footer>
+
+aside:- The <aside> tag defines some content aside from the content it is placed in.
+The aside content should be indirectly related to the surrounding content.
+E.g:- <p>Hi!</p>
+
+<aside>
+<h4>Center</h4>
+<p>eents.</p>
+</aside>
+
+section :-The <section> tag defines a section in a document.
+E.g:-<section>
+  <h2>Letsupgarde1</h2>
+  <p>JAVA.</p>
+</section>
+
+<section>
+  <h2>Letsupgarde1</h2>
+  <p>FULL STACK.</p>
+</section>
+
+svg :-The HTML <svg> element is a container for SVG graphics.
+SVG has several methods for drawing paths, boxes, circles, text, and graphic images.
+E.g:-<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+
+input :-The <input> tag specifies an input field where the user can enter data.
+E.g:-<input type="text" id="fname" name="fname">
+
+body :-he <body> tag defines the document's body.
+E.g:-<body>
+  <h1>This is a heading</h1>
+  <p>This is a paragraph.</p>
+</body>
+
+i :- The <i> tag defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.
+E.g:-<p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+
+mark :-The <mark> tag defines text that should be marked or highlighted.
+E.g:-<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+sub :-<p>This text contains <sub>subscript</sub> text.</p>
+E.g:-The <sub> tag defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O.
+
+big :-The <big> tag was used in HTML 4 to define bigger text.
+E.g:-<big>Hi</big>
+
+small :-The <small> tag defines smaller tex
+E.g:-<p><small>This is some smaller text.</small></p>
+
+u :-The <u> tag represents some text that is unarticulated and styled differently from normal text, such as misspelled words or proper names in Chinese text. The content inside is typically displayed with an underline
+E.g:-<p>This is some <u>mispeled</u> text.</p>
+
+del :-<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+E.g:-The <del> tag defines text that has been deleted from a document. Browsers will usually strike a line through deleted text.
+
+
+&amp :- ampersand sign: &amp;
+
+&lt :-	less than sign
+
